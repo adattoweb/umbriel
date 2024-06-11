@@ -1,0 +1,148 @@
+.block2-card {
+	width: 350px;
+	height: 450px;
+	background: linear-gradient(180deg, #E95555 0%, #9E1818 100%);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block2-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	margin-top: 50px;
+}
+.card-forms {
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+}
+.card-button:hover {
+	box-shadow: 0px 0px 64.008px 0px #EE5959;
+}
+.card-header {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.card-button {
+	background-color: #C53616;
+	width: 270px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 40px;
+	transition: 0.3s ease all;
+	cursor: pointer;
+}
+input::-webkit-input-placeholder {
+	color: #fff;
+	font-size: 20px;
+}
+
+input {
+	background: rgba(171, 171, 171, 0.25);
+	backdrop-filter: blur(2px);
+	color: #ffffff;
+	border-width: 0px;
+	border-radius: 10px;
+	padding: 20px 25px;
+	font-size: 20px;
+	width: 220px;
+	transition: ease 0.3s all;
+}
+
+input:focus {
+	border: none;
+	box-shadow: 0px 0px 64.008px 0px #EE5959;
+	background: rgba(171, 171, 171, 0.35);
+}
+
+.input2 {
+	margin-top: 40px;
+}
+input,
+textarea {
+	outline: none;
+	border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+.block-1 {
+	width: 100vw;
+	height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("./image/Los-Santos-and-the-surrounding 2.png");
+}
+.wrapper {
+	width: 100vw;
+	height: 900px;
+}
+.block2-header {
+	height: 100px;
+	width: 100vw;
+	font-weight: 600;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.block2-image img {
+	height: 550px;
+}
+.block2-image {
+	position: absolute;
+	right: 0;
+}
+@media screen and (max-width: 1200px) {
+	.block2-image {
+		display: none;
+}
+}
+@media screen and (max-width: 700px) {
+	.block2-card {
+	width: 300px;
+	height: 400px;
+	border-radius: 13px;
+}
+.block2-content {
+	margin-top: 50px;
+}
+.card-forms {
+	margin-top: 70px;
+}
+.card-header {
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.card-button {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+input {
+	background: rgba(171, 171, 171, 0.25);
+	backdrop-filter: blur(2px);
+	color: #ffffff;
+	border-width: 0px;
+	border-radius: 10px;
+	padding: 20px 25px;
+	font-size: 20px;
+	width: 170px;
+	transition: ease 0.3s all;
+}
+}

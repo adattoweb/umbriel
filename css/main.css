@@ -1,0 +1,266 @@
+.block1 {
+	width: 100vw;
+	height: 834px;
+	background-image: url("./image/1512812899149396793 1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block1-button {
+	padding: 10px 20px;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: #851919;
+	transition: 0.3s ease all;
+	width: 200px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.block1-button:hover {
+	box-shadow: 0px 0px 64.008px 0px #EE5959;
+}
+.block1-content {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+.block1-image {
+	position: absolute;
+	right: 50px;
+	bottom: -46px;
+}
+.block1-text {
+	position: absolute;
+	left: 200px;
+	margin-bottom: 200px;
+}
+.block1-text h1 {
+	margin-bottom: 20px;
+}
+.block1-text p {
+	margin-bottom: 20px;
+}
+.block2-content {
+	background-image: url("./image/Los-Santos-and-the-surrounding 2.png");
+	width: 100vw;
+	height: 900px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.block2-image {
+	margin-top: 193px;
+}
+.block2-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+.block2-text h1{
+	font-size: 70px;
+	text-align: center;
+}
+.block2-text p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 35px;
+	align-self: flex-start;
+}
+.monitoring {
+	width: 620px;
+	height: 250px;
+	background-color: rgba(69, 69, 69, 0.85);
+	backdrop-filter: blur(5px);
+	border-radius: 15px;
+	color: #8D8D8D;
+}
+.monitoring .online .online-text span {
+	color: #fff;
+}
+.monitoring-content {
+	color: #8D8D8D;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.monitoring span {
+	color: #fff;
+}
+.online {
+	display: flex;
+	align-items: center;
+	color: #8D8D8D;
+}
+.online-text {
+	color: #8D8D8D;
+	margin-left: 10px;
+}
+.online img {
+	width: 32px;
+	height: 32px;
+}
+.block3-content {
+	width: 100vw;
+	height: 900px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("./image/1676663505_catherineasquithgallery-com-p-fon-zelenii-gta-5-32 1.png");
+}
+.block3-content-text {
+	display: flex;
+	flex-direction: column;
+
+}
+.block3-button {
+	background-color: #851919;
+	font-size: 20px;
+	padding: 15px 20px;
+	transition: 0.3s ease all;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block3-button:hover {
+	box-shadow: 0px 0px 64.008px 0px #EE5959;
+}
+.block3-image {
+	position: relative;
+	left: 0px;
+	top: 120px;
+}
+.block3-content-text {
+	display: flex;
+	justify-content: center;
+}
+.block3-content-text h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.block3-content-text p {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.block3-button {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.block4-content {
+	width: 100vw;
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	background-image: url("image/Group 5.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block4-header {
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	margin-top: 50px;
+}
+.block4-text {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	margin-top: 100px;
+	gap: 100px;
+}
+.text-card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+	margin-left: 15px;
+}
+.text-card h3 {
+	font-size: 36px;
+}
+.text-card p {
+	font-size: 18px;
+}
+@media screen and (max-width: 1250px) {
+	.imga {
+		display: none;
+	}
+	.block2-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.block2-text {
+	margin-right: 0;
+   margin-bottom: 0;
+   align-items: flex-start;
+	}
+	.block3-content{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.block2-content {
+		display: none;
+		gap: 0px;
+		margin-top: 0px;
+	}
+	.block4-text {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+	.text-card p {
+		font-size: 13px;
+	}
+	.text-card h3 {
+	font-size: 20px;
+}
+	.block4-header {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 600px) {
+.block1-button {
+	padding: 10px 20px;
+	font-size: 25px;
+	font-weight: 500;
+	width: 200px;
+}
+.block1-text {
+	position: relative;
+	left: 0px;
+	margin-bottom: 0px;
+}
+.block1-text h1 {
+	position: relative;
+	margin-bottom: 0px;
+}
+.block1-text p {
+	margin-bottom: 20px;
+}
+}
+
